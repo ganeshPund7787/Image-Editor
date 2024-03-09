@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 30em;
+    /* border: 2px solid green; */
+    /* background-color: antiquewhite; */
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    text-shadow: 0.2vw 0.2vw 6px cyan;
+}
+
+input {
+    background-color: aqua;
+    box-shadow: 1px 1px 50px 6px cyan;
+}
+
+.col-md-4 {
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    /* text-align: center; */
+    /* border: 2px solid red; */
+}
+
+@media (max-width: 800px) {
+    button{
+        display: inline;
+    }
+    .btns-box{
+        width: 100%;
+    }
+    .Image-box{
+        margin-bottom: 3em;
+    }
+}
+
+img {
+    height: 100%;
+}
+
+.btn {
+    display: block;
+    margin-top: 1em;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.brightness {
+    filter: brightness(50%);
+}
+
+.contrast {
+    filter: contrast(150%);
+}
+
+.drop-shadow {
+    filter: drop-shadow(4px 4px 10px rgba(0, 0, 0, 0.5));
+}
+
+.grayscale {
+    filter: grayscale(23px);
+}
+
+.invert {
+    filter: invert(60%);
+}
+
+.opacity {
+    filter: opacity(50%);
+}
+
+.saturate {
+    filter: saturate(60%);
+}
+
+.sepia {
+    filter: sepia(60%);
+}
+
+.hue-rotate {
+    filter: hue-rotate(90deg);
+}
+
+h1{
+    margin: 1em;
+}
